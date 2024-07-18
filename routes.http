@@ -1,19 +1,19 @@
-POST http://localhost:5500/videos
+POST https://nodejs-postgresql-database.onrender.com/videos
 Content-Type: application/json
 
 {
     "title": "Video Node",
-    "description": "This is the first video",
+    "description": "This is the first video using Render",
     "duration": 180
 }
 
 ###
 
-GET http://localhost:5500/videos?search=Node
+GET https://nodejs-postgresql-database.onrender.com/videos?search=Node
 
 ###
 
-PUT http://localhost:5500/videos/09a4c165-93d5-4c62-a1d8-aab05426e280
+PUT https://nodejs-postgresql-database.onrender.com/videos/09a4c165-93d5-4c62-a1d8-aab05426e280
 Content-Type: application/json
 
 {   
@@ -23,4 +23,4 @@ Content-Type: application/json
 }
 
 ### 
-DELETE http://localhost:5500/videos/77f593d7-3230-43a1-a78d-45e5ae020575
+DELETE https://nodejs-postgresql-database.onrender.com/videos/77f593d7-3230-43a1-a78d-45e5ae020575
